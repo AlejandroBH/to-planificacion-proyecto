@@ -1,102 +1,109 @@
-# TaskFlow - PlanificaciÃ³n del Proyecto
+# TaskFlow - Planificaci¨®n del Proyecto
 
 ![TaskFlow](https://img.shields.io/badge/TaskFlow-v1.0.0-blue)
 ![Status](https://img.shields.io/badge/Status-En%20Desarrollo-yellow)
 ![Talento Digital](https://img.shields.io/badge/Talento%20Digital-2026-green)
 
-Documento de planificaciÃ³n y diseÃ±o del sistema de gestiÃ³n de proyectos TaskFlow, desarrollado como proyecto final para el curso de Desarrollo Full Stack de Talento Digital.
+Documento de planificaci¨®n y dise?o del sistema de gesti¨®n de proyectos TaskFlow, desarrollado como proyecto final para el curso de Desarrollo Full Stack de Talento Digital.
 
-## ğŸ“‹ InformaciÃ³n del Proyecto
+## ?? Informaci¨®n del Proyecto
 
-**Nombre**: TaskFlow - Sistema de GestiÃ³n de Proyectos  
-**Tipo**: AplicaciÃ³n Web Full Stack  
+**Nombre**: TaskFlow - Sistema de Gesti¨®n de Proyectos  
+**Tipo**: Aplicaci¨®n Web Full Stack  
 **Curso**: Desarrollo Full Stack - Talento Digital  
-**Fase**: PrÃ¡ctica Profesional - Proyecto Final  
+**Fase**: Pr¨¢ctica Profesional - Proyecto Final  
 **Autor**: Alejandro BH  
 **Fecha**: Enero 2026
 
-## ğŸ¯ Objetivo del Proyecto
+## ?? Objetivo del Proyecto
 
-Desarrollar un sistema completo de gestiÃ³n de proyectos y tareas que permita a equipos de trabajo organizar, planificar y dar seguimiento a sus proyectos de manera eficiente, con una interfaz moderna y experiencia de usuario fluida.
+Desarrollar un sistema completo de gesti¨®n de proyectos y tareas que permita a equipos de trabajo organizar, planificar y dar seguimiento a sus proyectos de manera eficiente, con una interfaz moderna y experiencia de usuario fluida.
 
-## ğŸ“ DescripciÃ³n General
+## ?? Descripci¨®n General
 
-TaskFlow es una plataforma web diseÃ±ada para facilitar la gestiÃ³n de proyectos y tareas en equipos de trabajo. El sistema permite crear proyectos, asignar tareas a miembros del equipo, hacer seguimiento del progreso y visualizar estadÃ­sticas en tiempo real.
+TaskFlow es una plataforma web dise?ada para facilitar la gesti¨®n de proyectos y tareas en equipos de trabajo. El sistema permite crear proyectos, asignar tareas a miembros del equipo, hacer seguimiento del progreso y visualizar estad¨ªsticas en tiempo real.
 
-## ğŸŒŸ CaracterÃ­sticas Principales
+## ?? Caracter¨ªsticas Principales
 
-### âœ¨ Interfaz Moderna
-- **DiseÃ±o Visual Atractivo**: Gradientes vibrantes, glassmorphism y animaciones suaves
-- **Tema Profesional**: Paleta de colores azul-pÃºrpura con efectos visuales premium
+### ? Interfaz Moderna
+- **Dise?o Visual Atractivo**: Gradientes vibrantes, glassmorphism y animaciones suaves
+- **Tema Profesional**: Paleta de colores azul-p¨²rpura con efectos visuales premium
 - **Animaciones**: Transiciones fluidas, efectos hover y animaciones de entrada
-- **Responsive**: DiseÃ±o adaptable para mÃ³vil, tablet y desktop
+- **Responsive**: Dise?o adaptable para m¨®vil, tablet y desktop
 
-### ğŸš€ Funcionalidades
-- **GestiÃ³n de Proyectos**: Crear, editar y eliminar proyectos
-- **Sistema de Tareas**: OrganizaciÃ³n con estados (Todo, En Progreso, RevisiÃ³n, Completado)
-- **Dashboard**: EstadÃ­sticas en tiempo real y actividad reciente
-- **AutenticaciÃ³n**: Sistema de login/registro
-- **GestiÃ³n de Equipos**: Agregar miembros a proyectos
+### ?? Funcionalidades
+- **Gesti¨®n de Proyectos**: Crear, editar y eliminar proyectos
+- **Sistema de Tareas**: Organizaci¨®n con estados (Todo, En Progreso, Revisi¨®n, Completado)
+- **Dashboard**: Estad¨ªsticas en tiempo real y actividad reciente
+- **Autenticaci¨®n**: Sistema de login/registro
+- **Gesti¨®n de Equipos**: Agregar miembros a proyectos
 
-### ğŸ¨ Componentes Destacados
+### ?? Componentes Destacados
 - **ProjectCard**: Tarjetas de proyecto con hover effects y gradientes
-- **DashboardStats**: EstadÃ­sticas animadas con iconos y tendencias
-- **ProjectForm**: Modal moderno con glassmorphism y validaciÃ³n
+- **DashboardStats**: Estad¨ªsticas animadas con iconos y tendencias
+- **ProjectForm**: Modal moderno con glassmorphism y validaci¨®n
 - **Layout**: Navbar sticky con gradientes y estados activos
 - **RecentActivity**: Timeline de actividades del equipo
 
-## ğŸ—ï¸ Arquitectura del Proyecto
+## ??? Arquitectura del Proyecto
 
 ### Frontend (Implementado)
 - **React 19.2.0**: Biblioteca de UI con hooks modernos
-- **TypeScript 5.6.2**: Tipado estÃ¡tico para mayor seguridad
-- **Vite 6.0.11**: Build tool ultrarrÃ¡pido
-- **React Router DOM 7.1.3**: NavegaciÃ³n y rutas protegidas
-- **Zustand 5.0.10**: GestiÃ³n de estado ligera y eficiente
+- **TypeScript 5.6.2**: Tipado est¨¢tico para mayor seguridad
+- **Vite 6.0.11**: Build tool ultrarr¨¢pido
+- **React Router DOM 7.1.3**: Navegaci¨®n y rutas protegidas
+- **Zustand 5.0.10**: Gesti¨®n de estado ligera y eficiente
 - **Tailwind CSS 3.4.1**: Framework CSS utility-first
 - **Lucide React 0.562.0**: Iconos SVG modernos
 
-### Backend (Planificado)
-- **Framework**: Node.js + Express
-- **Base de Datos**: PostgreSQL
-- **ORM**: Prisma
-- **AutenticaciÃ³n**: JWT
+### Backend (Implementado)
+- **Framework**: Node.js 20 + Express 5
+- **Base de Datos**: PostgreSQL 16
+- **ORM**: TypeORM
+- **Autenticaci¨®n**: JWT + Bcrypt
 - **API**: RESTful
+- **Infraestructura**: Docker Compose
 
-## ğŸ“‚ Estructura del Repositorio
+## ?? Estructura del Repositorio
 
 ```
 desarrollo-frontend/
-â”œâ”€â”€ to-planificacion-proyecto/    # ğŸ“‹ DocumentaciÃ³n y planificaciÃ³n
-â”‚   â”œâ”€â”€ README.md                 # Este archivo
-â”‚   â”œâ”€â”€ requisitos.md             # Requisitos funcionales
-â”‚   â”œâ”€â”€ casos-de-uso.md           # Casos de uso del sistema
-â”‚   â””â”€â”€ arquitectura.md           # DiseÃ±o de arquitectura
-â”‚
-â”œâ”€â”€ frontend/                     # âš›ï¸ AplicaciÃ³n React
-â”‚   â”œâ”€â”€ src/
-â”‚   â”‚   â”œâ”€â”€ components/          # Componentes reutilizables
-â”‚   â”‚   â”œâ”€â”€ pages/               # PÃ¡ginas de la aplicaciÃ³n
-â”‚   â”‚   â”œâ”€â”€ stores/              # Estado global (Zustand)
-â”‚   â”‚   â”œâ”€â”€ data/                # Datos mock
-â”‚   â”‚   â””â”€â”€ styles/              # Estilos globales
-â”‚   â””â”€â”€ package.json
-â”‚
-â””â”€â”€ backend/ (futuro)            # ğŸ”§ API Node.js
-    â”œâ”€â”€ src/
-    â”‚   â”œâ”€â”€ routes/
-    â”‚   â”œâ”€â”€ controllers/
-    â”‚   â””â”€â”€ models/
-    â””â”€â”€ package.json
+©À©¤©¤ to-planificacion-proyecto/    # ?? Documentaci¨®n y planificaci¨®n
+©¦   ©À©¤©¤ README.md                 # Este archivo
+©¦   ©À©¤©¤ requisitos.md             # Requisitos funcionales
+©¦   ©À©¤©¤ casos-de-uso.md           # Casos de uso del sistema
+©¦   ©¸©¤©¤ arquitectura.md           # Dise?o de arquitectura
+©¦
+©À©¤©¤ frontend/                     # ?? Aplicaci¨®n React
+©¦   ©À©¤©¤ src/
+©¦   ©¦   ©À©¤©¤ components/          # Componentes reutilizables
+©¦   ©¦   ©À©¤©¤ pages/               # P¨¢ginas de la aplicaci¨®n
+©¦   ©¦   ©À©¤©¤ stores/              # Estado global (Zustand)
+©¦   ©¦   ©À©¤©¤ data/                # Datos mock
+©¦   ©¦   ©¸©¤©¤ styles/              # Estilos globales
+©¦   ©¸©¤©¤ package.json
+©¦
+©¸©¤©¤ backend/                    # ?? API Node.js
+    ©À©¤©¤ src/
+    ©¦   ©À©¤©¤ config/              # Configuraciones (DB, ENV)
+    ©¦   ©À©¤©¤ controllers/         # Controladores
+    ©¦   ©À©¤©¤ entities/            # Entidades TypeORM
+    ©¦   ©À©¤©¤ middleware/          # Middlewares (Auth, Error)
+    ©¦   ©À©¤©¤ routes/              # Definici¨®n de rutas
+    ©¦   ©À©¤©¤ services/            # L¨®gica de negocio
+    ©¦   ©À©¤©¤ validators/          # Validaciones Joi
+    ©¦   ©¸©¤©¤ utils/               # Utilidades
+    ©À©¤©¤ docker-compose.yml       # Configuraci¨®n Docker
+    ©¸©¤©¤ package.json
 ```
 
-## ğŸ¨ Sistema de DiseÃ±o
+## ?? Sistema de Dise?o
 
 ### Paleta de Colores
-- **Primario**: Azul (#3b82f6) â†’ PÃºrpura (#8b5cf6)
+- **Primario**: Azul (#3b82f6) ¡ú P¨²rpura (#8b5cf6)
 - **Secundario**: Rosa (#ec4899)
-- **Ã‰xito**: Verde (#10b981)
-- **Advertencia**: Ãmbar (#f59e0b)
+- **¨¦xito**: Verde (#10b981)
+- **Advertencia**: ¨¢mbar (#f59e0b)
 - **Error**: Rojo (#ef4444)
 
 ### Gradientes
@@ -108,42 +115,42 @@ desarrollo-frontend/
 - **fadeIn**: Entrada con fade y desplazamiento vertical
 - **slideIn**: Entrada lateral
 - **scaleIn**: Entrada con escala
-- **blob**: AnimaciÃ³n orgÃ¡nica para fondos (7s loop)
+- **blob**: Animaci¨®n org¨¢nica para fondos (7s loop)
 
-### TipografÃ­a
+### Tipograf¨ªa
 - **Fuente**: Inter (Google Fonts)
 - **Headings**: Font-weight 700, letter-spacing -0.025em
 - **Body**: Line-height 1.6
 
-## ğŸ“Š Fases del Proyecto
+## ?? Fases del Proyecto
 
-### Fase 1: MVP Frontend (Completado) âœ…
-- [x] DiseÃ±o de interfaz y prototipo
-- [x] Sistema de autenticaciÃ³n con datos mock
+### Fase 1: MVP Frontend (Completado) ?
+- [x] Dise?o de interfaz y prototipo
+- [x] Sistema de autenticaci¨®n con datos mock
 - [x] CRUD de proyectos
 - [x] CRUD de tareas
-- [x] Dashboard con estadÃ­sticas
+- [x] Dashboard con estad¨ªsticas
 - [x] Interfaz responsive
 - [x] Componentes principales implementados
 
-### Fase 2: Backend Integration (Planificado)
-- [ ] DiseÃ±o de base de datos
-- [ ] API RESTful con Express
-- [ ] AutenticaciÃ³n JWT
-- [ ] IntegraciÃ³n frontend-backend
-- [ ] GestiÃ³n de usuarios real
-- [ ] Despliegue en producciÃ³n
+### Fase 2: Backend Integration (Completado) ?
+- [x] Dise?o de base de datos (PostgreSQL)
+- [x] API RESTful con Express
+- [x] Autenticaci¨®n JWT y Middleware
+- [x] Integraci¨®n de Docker Compose
+- [x] CRUDs de Proyectos y Tareas
+- [x] Gesti¨®n de usuarios implementada
 
 ### Fase 3: Funcionalidades Avanzadas (Futuro)
 - [ ] Drag & drop para tareas
 - [ ] Modo oscuro
 - [ ] Notificaciones en tiempo real
 - [ ] Comentarios en tareas
-- [ ] ExportaciÃ³n de reportes
+- [ ] Exportaci¨®n de reportes
 
-## ğŸ‘¥ Roles de Usuario
+## ?? Roles de Usuario
 
-### Usuario EstÃ¡ndar
+### Usuario Est¨¢ndar
 - Ver proyectos asignados
 - Crear y editar tareas propias
 - Actualizar estado de tareas
@@ -152,47 +159,47 @@ desarrollo-frontend/
 ### Administrador
 - Crear y gestionar proyectos
 - Asignar miembros a proyectos
-- Ver estadÃ­sticas globales
+- Ver estad¨ªsticas globales
 - Gestionar usuarios
 
-## ğŸ” Seguridad
+## ?? Seguridad
 
-- AutenticaciÃ³n con JWT
-- ValidaciÃ³n de datos en frontend y backend
-- ProtecciÃ³n contra XSS y CSRF
-- EncriptaciÃ³n de contraseÃ±as (bcrypt)
-- HTTPS en producciÃ³n
+- Autenticaci¨®n con JWT
+- Validaci¨®n de datos en frontend y backend
+- Protecci¨®n contra XSS y CSRF
+- Encriptaci¨®n de contrase?as (bcrypt)
+- HTTPS en producci¨®n
 
-## ğŸŒ Modo Frontend-Only (Actual)
+## ?? Modo Frontend-Only (Actual)
 
-El proyecto estÃ¡ configurado para funcionar completamente sin backend:
+El proyecto est¨¢ configurado para funcionar completamente sin backend:
 
 - **Datos Mock**: Usuarios, proyectos y tareas predefinidos
-- **AutenticaciÃ³n Simulada**: Login/registro con delays simulados
-- **Persistencia Local**: SesiÃ³n guardada en localStorage
+- **Autenticaci¨®n Simulada**: Login/registro con delays simulados
+- **Persistencia Local**: Sesi¨®n guardada en localStorage
 - **CRUD Simulado**: Operaciones con delays de red simulados
 
 ### Credenciales de Prueba
 ```
 Email: admin@example.com
-ContraseÃ±a: admin123
+Contrase?a: admin123
 ```
 
 ### Datos de Prueba
 
 **Usuarios:**
 - Usuario Admin (admin@example.com)
-- Juan PÃ©rez (juan@example.com)
-- MarÃ­a GarcÃ­a (maria@example.com)
-- Carlos LÃ³pez (carlos@example.com)
+- Juan P¨¦rez (juan@example.com)
+- Mar¨ªa Garc¨ªa (maria@example.com)
+- Carlos L¨®pez (carlos@example.com)
 
 **Proyectos:**
-- RediseÃ±o de Sitio Web
-- Desarrollo de App MÃ³vil
-- IntegraciÃ³n de APIs
-- MigraciÃ³n de Base de Datos
+- Redise?o de Sitio Web
+- Desarrollo de App M¨®vil
+- Integraci¨®n de APIs
+- Migraci¨®n de Base de Datos
 
-## ğŸ“± Compatibilidad
+## ?? Compatibilidad
 
 ### Navegadores Soportados
 - Chrome 90+
@@ -206,21 +213,21 @@ ContraseÃ±a: admin123
 - Tablet (768x1024)
 - Mobile (375x667+)
 
-## ğŸš€ Roadmap
+## ?? Roadmap
 
 ### Q1 2026 (Actual)
-- âœ… DiseÃ±o de interfaz y prototipo
-- âœ… Desarrollo del frontend con datos mock
-- âœ… ImplementaciÃ³n de componentes principales
-- ğŸ”„ DocumentaciÃ³n de planificaciÃ³n
+- ? Dise?o de interfaz y prototipo
+- ? Desarrollo del frontend con datos mock
+- ? Implementaci¨®n de componentes principales
+- ?? Documentaci¨®n de planificaci¨®n
 
-### Q2 2026 (Planificado)
-- ğŸ“‹ Desarrollo del backend
-- ğŸ“‹ IntegraciÃ³n frontend-backend
-- ğŸ“‹ Testing y QA
-- ğŸ“‹ Despliegue en producciÃ³n
+### Q2 2026 (Completado)
+- ? Desarrollo del backend
+- ? Integraci¨®n de base de datos
+- ?? Testing y QA
+- ?? Despliegue en producci¨®n
 
-## ğŸ› ï¸ TecnologÃ­as y Herramientas
+## ??? Tecnolog¨ªas y Herramientas
 
 ### Desarrollo
 - Visual Studio Code
@@ -233,48 +240,49 @@ ContraseÃ±a: admin123
 - React Testing Library
 - Cypress (E2E)
 
-### DevOps (Planificado)
-- Docker
+### DevOps (En Progreso)
+- Docker & Docker Compose
 - GitHub Actions (CI/CD)
 - Vercel/Netlify (Frontend)
 - Railway/Render (Backend)
 
-## ğŸ“ˆ MÃ©tricas de Ã‰xito
+## ?? M¨¦tricas de ¨¦xito
 
 - **Performance**: Tiempo de carga < 2 segundos
 - **UX**: Interfaz intuitiva y fluida
 - **Disponibilidad**: Uptime > 99%
-- **CÃ³digo**: CÃ³digo limpio y mantenible
+- **C¨®digo**: C¨®digo limpio y mantenible
 
-## ğŸ“š DocumentaciÃ³n Relacionada
+## ?? Documentaci¨®n Relacionada
 
-- [README Frontend](../README.md) - DocumentaciÃ³n tÃ©cnica completa
+- [README Frontend](../README.md) - Documentaci¨®n t¨¦cnica completa
 - [Requisitos del Sistema](./requisitos.md) - Especificaciones funcionales
 - [Casos de Uso](./casos-de-uso.md) - Flujos de usuario
-- [Arquitectura TÃ©cnica](./arquitectura.md) - DiseÃ±o del sistema
+- [Arquitectura T¨¦cnica](./arquitectura.md) - Dise?o del sistema
 
-## ğŸ¤ ContribuciÃ³n
+## ?? Contribuci¨®n
 
-Este es un proyecto acadÃ©mico individual para Talento Digital. Las sugerencias y feedback son bienvenidos.
+Este es un proyecto acad¨¦mico individual para Talento Digital. Las sugerencias y feedback son bienvenidos.
 
-## ğŸ“ Licencia
+## ?? Licencia
 
-Proyecto acadÃ©mico - Talento Digital 2026
+Proyecto acad¨¦mico - Talento Digital 2026
 
-## ğŸ‘¨â€ğŸ’» Autor
+## ????? Autor
 
 **Alejandro BH**
 - GitHub: [@AlejandroBH](https://github.com/AlejandroBH)
-- Proyecto: [to-desarrollo-frontend](https://github.com/AlejandroBH/to-desarrollo-frontend)
+- Proyecto FrontEnd: [to-desarrollo-frontend](https://github.com/AlejandroBH/to-desarrollo-frontend)
+- Proyecto Backend: [to-desarrollo-backend](https://github.com/AlejandroBH/to-desarrollo-backend)
 
-## ğŸ™ Agradecimientos
+## ?? Agradecimientos
 
-- Talento Digital por la formaciÃ³n
+- Talento Digital por la formaci¨®n
 - Comunidad de React y TypeScript
 - Lucide Icons por los iconos
 - Tailwind CSS por el framework
 
 ---
 
-**Hecho con â¤ï¸ para la gestiÃ³n de proyectos**  
-**Ãšltima actualizaciÃ³n**: Enero 2026 | **Estado**: En Desarrollo Activo ğŸš§
+**Hecho con ?? para la gesti¨®n de proyectos**  
+**¨²ltima actualizaci¨®n**: Enero 2026 | **Estado**: En Desarrollo Activo ??
